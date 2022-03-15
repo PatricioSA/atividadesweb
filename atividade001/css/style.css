@@ -1,0 +1,24 @@
+header {
+    border-bottom: 2px solid black;
+}
+
+.menu-item {
+    color: white;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: #010b57;
+}
+
+body {
+    background-color: #08d4a2;
+}
+
+h3 {
+    color: #1411f5;
+}
+
+footer {
+    border-top: 2px solid black;
+}
