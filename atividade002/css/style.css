@@ -5,7 +5,7 @@
     margin: 0;
 }
 
-#conteiner {
+body {
     margin: auto;
     background-color: #08101e;
     color: #f5f3f8;
@@ -34,8 +34,8 @@ form {
 
 .imagem-cabecalho {
     position: absolute;
-    right: 600px;
-    top: 50px;
+    right: 20%;
+    top: 3%;
 }
 
 #conteudo {
@@ -93,8 +93,8 @@ form {
 
 .imagem-conteudo {
     position: absolute;
-    top: 750px;
-    right: 630px;
+    top: 80%;
+    right: 35%;
 }
 
 .limpa-float {
@@ -117,4 +117,12 @@ form {
     border: 1px solid red;
     padding: 15px;
     float: left;
+    position: relative;
+    left: 30%;
+}
+
+#link-cadastrar {
+    text-align: center;
+    font-size: 30px;
+    color: #f5f3f8;
 }
