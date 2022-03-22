@@ -28,8 +28,7 @@ form {
 }
 
 .imagem-cabecalho {
-    float: right;
-    position: absolute;
+    position: fixed;
     right: 20%;
     top: 5%;
 }
