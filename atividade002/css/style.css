@@ -1,132 +1,129 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@500&display=swap');
 
-body {
+*{
     margin: 0;
     padding: 0;
-    background-color: #08101e;
-    color: #f5f3f8;
-    font-family: 'Sarala', sans-serif;
 }
 
-#cabecalho {
-    margin-left: 20%;
-    padding: 2%;
+ul li{
+    display: inline-block;
+    padding: 1em;
 }
 
-h1 {
-    font-family: 'Righteous', cursive;
+ul a {
+    padding: 0.4em;
+    text-decoration: none;
+    color: rgb(151, 151, 52);
 }
 
-form {
-    margin-top: 2%;
+hr {
+    border-color: red;
 }
 
-.botao-form {
-    width: 210px;
-    background-color: #f03546;
-    color: #f5f3f8;
+#container {
+    width: 70%;
+    margin: 0 auto;
 }
 
-.imagem-cabecalho {
-    position: fixed;
-    right: 20%;
-    top: 5%;
+#menu {
+    width: 500px;
+    margin: 0px auto;
 }
 
 #conteudo {
-    height: 950px;
+    margin: 0 auto;
+    width: 65%;
+    margin-right: 15%;
 }
 
-.titulo-conteudo {
+#imagens-conteudo {
+    padding-top: 2%;
+    margin: 0 auto;
+}
+
+#img-coracao {
+    margin-top: 10%;
+    margin-left: 40%;
+}
+
+#titulo {
+    font-family: 'Roboto', sans-serif;
     text-align: center;
-    padding: 25px;
-    font-family: 'Righteous', cursive;
+    font-size: 1.5em;
+    margin-top: 2%;
+    color: gray;
 }
 
-#caixa1 {
-    font-size: 18px;
-    width: 200px;
-    height: 50px;
-    border: 1px solid red;
-    padding: 10px;
+#conteudo-foto-recado {
+    width: 500px;
+    text-align: right;
+    margin-top: 5em;
+    margin-left: 30%;
+}
+
+#paragrafo-recado {
     float: left;
-    position: relative;
-    left: 630px;
+    font-size: 1.5em;
+    border-bottom: 1px solid brown;
+    color: brown;
+    padding: 0.1em;
+    text-align: right;
 }
 
-#caixa2 {
-    font-size: 18px;
-    width: 200px;
-    height: 50px;
-    border: 1px solid red;
-    padding: 10px;
-    float: left;
-    position: relative;
-    top: 100px;
-    left: 650px;
+#conteudo-escrito {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
 
-#caixa3 {
-    font-size: 18px;
-    width: 200px;
-    height: 50px;
-    border: 1px solid red;
-    padding: 10px;
-    float: left;
-    position: relative;
-    top: 210px;
-    right: -200px;
+#paragrafo1 {
+    margin-left: 48%;
+    margin-top: 10%;
+    padding-bottom: 2%;
+    
 }
 
-#caixa4 {
-    font-size: 18px;
-    width: 200px;
-    height: 50px;
-    border: 1px solid red;
-    padding: 10px;
-    float: left;
-    position: relative;
-    top: 320px;
-    left: 200px;
+#paragrafo2 {
+    margin-top: 5%;
+    padding-bottom: 2%;
 }
 
-.imagem-conteudo {
-    position: absolute;
-    top: 92%;
-    right: 35%;
+#paragrafo3 {
+    margin-left: 47%;
+    margin-top: 5%;
+    padding-bottom: 2%;
 }
 
-.limpa-float {
-    clear: both;
+#paragrafo4 {
+    margin-top: 5%;
+    padding-bottom: 2%;
+}
+
+#paragrafo5 {
+    margin-left: 49%;
+    margin-top: 5%;
+    padding-bottom: 2%;
+}
+
+#paragrafo6 {
+    margin-top: 5%;
+    padding-bottom: 2%;
 }
 
 #rodape {
-    padding: 25px;
-}
-
-.titulo-rodape {
-    padding-bottom: 10px;
+    margin: 10px;
+    padding: 20px;
     text-align: center;
-    font-family: 'Righteous', cursive;
+    font-size: 1.5em;
+    background-color: red;
+    height: 100%;
 }
 
-.paragrafo-rodape {
-    font-weight: 700;
-    width: 190px;
-    height: 60px;
-    border: 1px solid red;
-    padding: 15px;
-    float: left;
-    position: relative;
-    left: 30%;
+.bolinha {
+    color: green;
+    font-size: 1.5em;
 }
 
-#link-cadastrar {
-    text-align: center;
-    font-size: 30px;
-    color: #f5f3f8;
-}
-
-.link-creditos {
-    color: #4c5970;
+/*NAVEGAÇÃO*/
+a:hover {
+    background-color: blue;
 }
