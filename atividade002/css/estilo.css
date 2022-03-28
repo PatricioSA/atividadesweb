@@ -131,4 +131,5 @@ hr {
 /*NAVEGAÇÃO*/
 a:hover {
     background-color: #a62a2a;
+    transition: 1.5s;
 }
