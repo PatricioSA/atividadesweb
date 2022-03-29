@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
 
-body {
+* {
     margin: 0;
     padding: 0;
-    background-color: #08101e;
+}
+
+body {
     color: #f5f3f8;
     font-family: 'Sarala', sans-serif;
+    background-color: #08101e;
 }
 
 #cabecalho {
-    margin-left: 20%;
+    margin-left: 10%;
     padding: 2%;
 }
 
@@ -21,6 +24,11 @@ form {
     margin-top: 2%;
 }
 
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .botao-form {
     width: 210px;
     background-color: #f03546;
@@ -28,9 +36,12 @@ form {
 }
 
 .imagem-cabecalho {
-    position: fixed;
-    right: 20%;
-    top: 5%;
+    float: right;
+    position: absolute;
+    left: 60%;
+    top: 2%;
+    width: 18%;
+    
 }
 
 #conteudo {
@@ -91,8 +102,9 @@ form {
 }
 
 .imagem-conteudo {
+    width: 30%;
     position: absolute;
-    top: 92%;
+    top: 85%;
     right: 35%;
 }
 
