@@ -11,6 +11,10 @@ body {
     background-color: #08101e;
 }
 
+ul li {
+    display: inline;
+}
+
 #cabecalho {
     display: flex;
     justify-content: space-around;
