@@ -12,8 +12,9 @@ body {
 }
 
 #cabecalho {
-    margin-left: 10%;
-    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
 }
 
 h1 {
@@ -35,13 +36,9 @@ form {
     color: #f5f3f8;
 }
 
-.imagem-cabecalho {
-    float: right;
-    position: absolute;
-    left: 60%;
-    top: 2%;
-    width: 18%;
-    
+#imagem-cabecalho {
+    width: 30%;
+    padding-bottom: 2%;
 }
 
 #conteudo {
@@ -101,10 +98,10 @@ form {
     left: 200px;
 }
 
-.imagem-conteudo {
+#imagem-conteudo {
     width: 30%;
     position: absolute;
-    top: 85%;
+    top: 90%;
     right: 35%;
 }
 
