@@ -8,7 +8,7 @@ body {
 }
 
 nav {
-    margin-top: 10px;
+    margin-top: 1%;
     background-color: rgb(141, 128, 128);
     height: 50px;
 }
@@ -54,7 +54,7 @@ ul {
 
 #conteudo-secao2 {
     background-color: rgb(216, 215, 215);
-    width: 100%;
+    width: 80%;
     height: 410px;
 }
 
@@ -97,5 +97,5 @@ ul {
 .conteudo-secao3 {
     background-color: rgb(216, 215, 215);
     width: 20%;
-    height: 250px;
+    height: 400px;
 }

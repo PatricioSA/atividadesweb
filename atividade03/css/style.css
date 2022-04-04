@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-bottom: 2%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+nav {
+    margin-top: 1%;
+    background-color: #3e474b;
+    height: 50px;
+}
+ul a {
+    text-decoration: none;
+    line-height: 50px;
+    padding: 20px;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin-top: 5%;
+    text-align: center;
+    color: #3e474b;
+}
+
+#container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#banner {
+    background-color: #f6f6f6;
+    width: 100%;
+    height: 400px;
+    margin-top: 1%;
+    text-align: center;
+}
+
+#secao1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#titulo-secao2 {
+    margin-top: 5%;
+    text-align: center;
+    padding: 2%;
+    color: #3e474b;
+}
+
+#secao2 {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#conteudo-secao2 {
+    width: 80%;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(#a8bee5, #4d81ba);
+}
+
+#artigos {
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+
+#titulo-secao3{
+    background-color: #c5cce6;
+    padding: 2%;
+    color: #3e474b;
+}
+
+#secao3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #c5cce6;
+}
+
+#titulo-rodape {
+    margin-top: 5%;
+    text-align: center;
+    background-color: #171719;
+    color: white;
+    padding: 1%;
+}
+
+#rodape {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #171719;
+    width: 100%;
+    height: 100px;
+    color: wheat;
+    text-align: center;
+}
+
+.artigo-secao2 {
+    width: 85%;
+    height: 30%;
+    padding: 2%;
+    margin-left: 10%;
+    background: linear-gradient(#a8bee5, #4d81ba);
+}
+
+.img1-secao1 {
+    background-image: url(../img/hero-portrait-soldier.png);
+    background-color: rgb(216, 215, 215);
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.img2-secao1 {
+    background-image: url(../img/hero-portrait-ana.png);
+    background-color: rgb(216, 215, 215);
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.img3-secao1 {
+    background-image: url(../img/hero-portrait-sigma.png);
+    background-color: rgb(216, 215, 215);
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.img4-secao1 {
+    background-image: url(../img/hero-portrait-tracer.png);
+    background-color: rgb(216, 215, 215);
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.conteudo-secao3 {
+    width: 20%;
+    height: 400px;
+}
+
+a:hover {
+    color: #f07229;
+    transition: 1s;
+}
