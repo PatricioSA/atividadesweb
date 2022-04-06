@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -68,7 +69,7 @@ h1 {
     
 }
 
-#conteudo-secao2 {
+#lateral-esquerda {
     width: 80%;
     height: 410px;
     display: flex;
@@ -78,7 +79,7 @@ h1 {
     background: linear-gradient(#a8bee5, #4d81ba);
 }
 
-#artigos {
+#lateral-direita {
     display: flex;
     flex-direction: column;
     gap: 2%;

@@ -52,13 +52,13 @@ ul {
     flex-direction: row;
 }
 
-#conteudo-secao2 {
+#lateral-esquerda {
     background-color: rgb(216, 215, 215);
     width: 80%;
     height: 410px;
 }
 
-#artigos {
+#lateral-direita {
     display: flex;
     flex-direction: column;
     gap: 2%;
