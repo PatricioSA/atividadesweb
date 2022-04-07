@@ -47,24 +47,27 @@ ul {
 }
 
 #secao2 {
+    width: 100%;
     margin-top: 5%;
-    display: flex;
-    flex-direction: row;
 }
 
 #lateral-esquerda {
+    float: left;
     background-color: rgb(216, 215, 215);
-    width: 80%;
+    width: 50%;
     height: 410px;
+    margin-bottom: 5%;
 }
 
 #lateral-direita {
+    float: right;
     display: flex;
     flex-direction: column;
-    gap: 2%;
+    width: 45%;
 }
 
 #secao3 {
+    clear: both;
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
@@ -79,12 +82,16 @@ ul {
     text-align: center;
 }
 
+#ultimo-artigo {
+    margin-bottom: 0;
+}
+
 .artigo-secao2 {
     background-color: rgb(216, 215, 215);
-    width: 85%;
-    height: 30%;
+    width: 90%;
+    height: 10vh;
     padding: 2%;
-    margin-left: 10%;
+    margin-bottom: 5%;
 }
 
 .img-secao1 {
@@ -97,5 +104,5 @@ ul {
 .conteudo-secao3 {
     background-color: rgb(216, 215, 215);
     width: 20%;
-    height: 400px;
+    height: 30vh;
 }
